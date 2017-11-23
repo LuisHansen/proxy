@@ -47,7 +47,6 @@ HTTP_PREFIX = "http://"
 HTTPS_PREFIX = "http://"
 
 IGNORE_HEADERS = frozenset([
-  'set-cookie',
   'expires',
   'cache-control',
 
@@ -65,6 +64,8 @@ IGNORE_HEADERS = frozenset([
 TRANSFORMED_CONTENT_TYPES = frozenset([
   "text/html",
   "text/css",
+  "text/javascript",
+  "application/javascript"
 ])
 
 
